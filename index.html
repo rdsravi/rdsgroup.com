@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGIVY</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Include Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+
+</head>
+
+<body>
+    <!-- header Desigh -->
+    <header class="header">
+        <a href="#" class="logo"></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About us</a>
+            <a href="#services">Our Services</a>
+            <a href="#portfolio">Our Projects</a>
+            <a href="#">Gallery</a>
+            <a href="#">Career</a> 
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>DIGIVY Pvt. Ltd.</h1>
+            <br>
+            <h3>Tech Services Company.</h3>
+            <h3>We Working on <span class="multi-text"></span></h3>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100023365178445"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/its_er.ravi/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/ravi-prakash-rds/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/rdsravi"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Download Brochure</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./images/logo2.png" alt="">
+            <!-- <img
+                src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Intersect%20(2).png?alt=media&token=2aafa0d3-3ca1-4e11-9094-e46a7e68f49c"> -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <!-- <img src="./images/image.png" alt=""> -->
+            <!-- <img
+                src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Ravi_full1.png?alt=media&token=8a279d74-98dc-44c6-9e48-5c84eede43a9"> -->
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Us</span></h2>
+            <!-- <h3>Full Stack Developer!</h3> -->
+
+            <p>We can actively engage in policy advocacy by raising awareness about important policy issues and
+                advocating for policy changes. Utilizing our knowledge and understanding of technical subjects, we can
+                inform policymakers and the public about the potential consequences of specific policies, effectively
+                bridging the gap between technology and policy.</p>
+            
+
+            <!-- <p>At DIGIVY Pvt. Ltd. we specialize in delivering comprehensive digital solutions tailored to meet your
+                business needs. Our range of services includes:</p>
+
+            <h3> Website Development:</h3>
+            <p>We create visually appealing, user-friendly websites that are optimized for
+                performance and scalability. Whether you need a simple brochure site or a complex e-commerce platform,
+                our team has the expertise to deliver.</p>
+
+            <h3>Android and iOS App Development:</h3>
+            <p>Our skilled developers craft high-quality mobile applications for both
+                Android and iOS platforms. We focus on creating apps that are intuitive, engaging, and aligned with your
+                business goals.</p>
+
+            <h3>Digital Marketing:</h3>
+            <P> We help you reach your target audience through strategic digital marketing campaigns.
+                Our services include SEO, PPC, email marketing, and content marketing, designed to increase your online
+                visibility and drive traffic to your site.</P>
+
+            <h3>Social Media Marketing:</h3>
+            <p> Our social media experts create and manage impactful social media campaigns that
+                boost your brand's presence on platforms like Facebook, Instagram, Twitter, and LinkedIn. We engage with
+                your audience and build a strong online community around your brand.</p>
+
+            <h3>Custom Solutions:</h3>
+            <P> We understand that every business is unique. That's why we offer custom digital
+                solutions that cater to your specific requirements. From branding and graphic design to CRM integrations
+                and beyond, we provide end-to-end services to ensure your digital success.</P> -->
+
+
+
+            <P>At DIGIVY Pvt. Ltd., our mission is to help you thrive in the digital world. We combine creativity,
+                technology, and strategic thinking to deliver results that exceed your expectations. Partner with us to
+                take your business to the next level.
+            </p>
+            <a href="#" class="btn" style="margin-left: 2rem;">Read More</a>
+            <br><br>
+
+            <h3 class="heading">Founded <span>By</span></h3>
+            <br><br><br>
+            <div class="founders" id="founders">
+                
+                <div>
+                    <div class="founder-img"><img src="./images/album-1.jpg" height="400vw" width="300vw" alt=""></div>
+                    <h1>first-person</h1>
+                    <p>Founder & CEO</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/profile.php?id=100023365178445"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/its_er.ravi/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.linkedin.com/in/ravi-prakash-rds/"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/rdsravi"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="founder-img"><img src="./images/album-3.jpg" height="400vw" width="300vw" alt=""></div>
+                    <h1>Second-person</h1>
+                    <p>Fouder & Director</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/profile.php?id=100023365178445"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/its_er.ravi/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.linkedin.com/in/ravi-prakash-rds/"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/rdsravi"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Services Section -->
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class='bx bxl-android'></i>
+                <h3>Android Development</h3>
+                <p>I propose to develop a high-quality Android application that will provide your users with a seamless
+                    and engaging experience. The app will be designed to meet your specific requirements, enhance user
+                    engagement, and drive business growth. I am committed to delivering a robust, scalable, and visually
+                    appealing mobile application tailored to your brand.</p>
+                <a href="android_service.html" class="btn">Read more</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bxl-apple'></i>
+                <h3>iOS Development</h3>
+                <p>I propose to develop a high-quality iOS application that will provide your users with a seamless
+                    and engaging experience. The app will be designed to meet your specific requirements, enhance user
+                    engagement, and drive business growth. I am committed to delivering a robust, scalable, and visually
+                    appealing mobile application tailored to your brand.</p>
+                <a href="ios_services.html" class="btn">Read more</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I propose to create a modern, responsive, and user-friendly website for [Client’s Company]. The
+                    website will be designed to enhance your online presence, engage visitors, and drive conversions.
+                    My team will focus on creating a visually appealing interface coupled with seamless functionality
+                    to ensure an exceptional user experience.</p>
+                <a href="web_service.html" class="btn">Read more</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bx-palette'></i>
+                <h3>Graphics Design</h3>
+                <p>I am a passionate of creative professional specializing in graphic design. With a keen eye for
+                    detail and a dedication to delivering exceptional results, I pride ourselves on our ability to
+                    transform ideas into impactful visual communication. Creating visually striking brochures, flyers,
+                    posters, and banners to promote your products/services.</p>
+                <a href="graphics_service.html" class="btn">Read more</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bxl-netlify'></i>
+                <h3>Software Testing</h3>
+                <p>I understand the critical importance of ensuring the quality, functionality, database, and security
+                    of software
+                    applications. With my expertise in software testing, I am confident in my ability to deliver
+                    comprehensive testing solutions tailored to your unique requirements.</p>
+                <a href="sw_testing_service.html" class="btn">Read more</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bxl-squarespace'></i>
+                <h3>Remote Support</h3>
+                <p>A remote support job involves providing technical assistance and troubleshooting services to
+                    customers or clients from a remote location. Remote support professionals, often known as remote
+                    support technicians or help desk agents, play a crucial role in resolving technical issues
+                    efficiently and ensuring customer satisfaction.</p>
+                <a href="remote_service.html" class="btn">Read more</a>
+            </div>
+            <!-- <div class="service-box">
+                <i class='bx bxs-game'></i>
+                <h3>Gaming</h3>
+                <p>I am RP_Axel, your friendly neighborhood gamer, explorer of virtual worlds, and master of all things
+                    pixelated. From the adrenaline-pumping battles of first-person shooters to the immersive
+                    storytelling of open-world RPGs, I’ve traversed countless realms, honing my skills, and embracing
+                    the true spirit of gaming.</p>
+                <a href="game_service.html" class="btn">Read more</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Project%2Fproject7.jpg?alt=media&token=37a2a4e9-1bdf-4b39-a0fe-8ca6447363d2"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>Personal Portfolio</h4>
+                    <p>It's one of the most practical and memorable ways to share my work with press, potential
+                        collaborators or employers.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Project%2Fproject8.png?alt=media&token=742274c5-b801-4216-b368-3d86c4b1faa7"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>Food Delivery App</h4>
+                    <p>Food delivery apps are third-party delivery services hosted on mobile applications that
+                        restaurants or retailers partner with to showcase their menu and food offerings, allowing
+                        customers to order food and get it delivered to their doorstep.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Project%2Fproject5.jpg?alt=media&token=1a9c9440-ade6-4197-9f93-60d3e157f47d"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>Hmm-Hmm Chating App</h4>
+                    <p>It enables you to send and receive messages. This app make it easier, simpler, and faster to
+                        connect with everyone and it is also easy to use.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Project%2Fproject6.jpg?alt=media&token=950e8799-9a56-47c3-8024-393226d45411"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>E-Commerce website</h4>
+                    <p>This Website allows startups, small businesses, and large companies to sell products at scale and
+                        reach customers across the world.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Project%2Fproject3.png?alt=media&token=7c43a973-160f-4060-af5e-fcab0be31141"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>eBook Store App</h4>
+                    <p>This eBook store mobile app is simply an online bookstore from where one can download eBooks into
+                        eBook readers.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Project%2Fproject2.jpg?alt=media&token=1497d68b-d1df-4a7d-8a6b-3e3c920df64b"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>Restaurent Management System</h4>
+                    <p>It is a type of point-of-sale (POS) software specifically designed for restaurants, bars, food
+                        trucks and others in the foodservice industry.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <form id="contact">
+            <h2 class="heading">Contact <span>Us!</span></h2>
+
+            <div class="alert">Message sent successfully!</div>
+
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" id="number" placeholder="Phone Number">
+                <input type="text" id="subject" placeholder="Subject">
+            </div>
+
+            <div class="input-box">
+                <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+
+        </form>
+    </section>
+
+    <!-- Footer Design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Ravi | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Firebase -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

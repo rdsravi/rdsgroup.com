@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Gallery</title>
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .rp-photos {
+            width: 100%;
+            height: 100vh;
+            background: #000;
+            overflow: hidden;
+        }
+
+        .rp-photos .rav {
+            width: 20rem;
+            margin: 5rem auto 0;
+            overflow: visible;
+        }
+
+        .rav img{
+            -webkit-box-reflect: below 1rem linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+        }
+    </style>
+</head>
+<body>
+    <div class="rp-photos">
+        <div class="rav">
+            <ul>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd1.png?alt=media&token=d09b177a-036f-485b-b78e-332d91effb51"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd2.png?alt=media&token=d65481a3-c7ac-4929-981f-23d4bfbc5113"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd3.png?alt=media&token=291bc6b6-4990-4324-90e0-a9986f9abfa3"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd4.png?alt=media&token=78f3fee6-2a1e-41d4-944b-5da20772a27a"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd5.png?alt=media&token=41500f9d-695f-4896-943c-5ec0c2ce82a0"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd6.png?alt=media&token=46a48bb3-6f25-40dc-8845-4fe986c50a66"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd7.png?alt=media&token=4e3335c0-e94a-4c0c-9d29-6315f9a35a1b"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd8.png?alt=media&token=5ca9e68c-10b7-4a8b-aa3e-5ae7c4aa78c1"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd9.png?alt=media&token=b6cde74c-8c48-477c-9fbc-16fa04bfe274"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd10.png?alt=media&token=d8c1ad04-604b-46e9-9389-c1bb8195d3ca"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd11.png?alt=media&token=183842be-a616-43c1-973a-f08422483ecf"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd12.png?alt=media&token=2b74a8f5-ffc2-44cd-a030-e659c812d436"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd13.png?alt=media&token=6fe3b40e-1b4b-4fb8-93fe-918c3f456efd"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd14.png?alt=media&token=caf5ef9c-b6b3-4185-8a18-8e333c0a05d8"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd15.png?alt=media&token=8e9f1a99-af8b-45b3-9557-c6c003a3027a"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd16.png?alt=media&token=ed20a9a5-dd1a-4b40-bd0e-5648533532de"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd17.png?alt=media&token=2209da39-6ce5-4a77-bf4b-e55f6709f679"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd18.png?alt=media&token=0db9715b-b784-4b54-a6ec-c205b6d462c9"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd19.png?alt=media&token=25e9ab21-350e-475a-92a8-87b18225eac2"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd20.png?alt=media&token=926b6751-3107-4386-bcab-2b8276a83573"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fbd21.png?alt=media&token=585bb370-2dd2-4c65-8163-8d6904d5b5f2"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fhk1.png?alt=media&token=0274f250-119b-4f6f-9777-87fd83ebd6d1"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fhk2.png?alt=media&token=66398f6b-9908-4225-a17d-43ef80e6e23b"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fhk3.png?alt=media&token=1794d1e0-d02b-4d34-aa63-6bc2f59b9480"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fhk4.png?alt=media&token=bf1d307e-d269-46de-bd17-9b0d4a377539"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fhk5.png?alt=media&token=cf370314-42b7-4feb-9332-9c04c4e22d26"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Fig1.png?alt=media&token=a1fdf107-e607-4d49-905c-1a311a39cdeb"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb1.png?alt=media&token=ff27b848-9489-4c68-9604-9fa80b6daf2e"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb2.png?alt=media&token=eaba0b1c-bc75-4807-a76f-046fdf06973f"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb3.png?alt=media&token=6964e09e-8608-4db0-9bea-d00fcbed20be"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb4.png?alt=media&token=72d36ec4-bc9f-4861-80c9-8ac35a46acb5"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb5.png?alt=media&token=92a4b6e7-97bd-4594-a487-d557fdeefb5b"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb6.png?alt=media&token=5f148c36-eec5-4fd4-8c98-827690374828"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb7.png?alt=media&token=38e4f3e1-3690-4933-a5c9-03a32090a138"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb8.png?alt=media&token=f6478bce-a7ca-4471-8809-94377a2065d1"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb9.png?alt=media&token=f8d30c57-154f-4895-8e5e-ea32ea6960e7"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb10.png?alt=media&token=ecacab97-84dd-400e-bccd-efd53dde14d8"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb11.png?alt=media&token=c9ccadf3-487e-4671-add9-f8e19fd6b1f9"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb12.png?alt=media&token=0fc9c582-15c9-40eb-8911-dae242ae6ed4"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb13.png?alt=media&token=7b013ee4-95ff-40da-87bd-538863c3bd14"></li>
+                <li><img src="https://firebasestorage.googleapis.com/v0/b/raviprakash-7b08f.appspot.com/o/Gallery%2Frb14.png?alt=media&token=a4d82e09-8f04-4936-9eb6-4c838b24a07d"></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+
+    <script>
+        $('.rav').flipster({
+            style: 'carousel',
+            spacing: -0.2,
+        });
+    </script>
+
+</body>
+</html>
