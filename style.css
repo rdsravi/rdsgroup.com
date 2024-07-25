@@ -12,11 +12,11 @@
 }
 
 :root{
-    --bg-color: #0a0c0c;
-    --second-bg-color: #3a2528;
-    --text-color: #fff;
-    --main-color: rgb(41, 219, 219);
-    --icon-color:#52afec;
+    --bg-color: #e3eeee;
+    --second-bg-color: #ffffff;
+    --text-color: #000000;
+    --main-color: rgb(41, 124, 219);
+    --icon-color:#4016ff;
 }
 
 html {
@@ -187,7 +187,8 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
-.about .founders {
+
+.founders {
     display: flex;
     justify-content: center;
     align-items: center;
